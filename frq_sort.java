@@ -32,8 +32,7 @@ public class frq_sort {
 						return o2.getValue().compareTo(o1.getValue());
 					}
 				});
-		//sortByValue(frequencyMap);
-
+		
 
 		int index = 0;
 
@@ -42,7 +41,6 @@ public class frq_sort {
 				arr[index++] = entry.getKey();
 			}
 		}
-		//putSortedElementsBackInArray(arr, entryList);
 	}
 	
 	private static void printArray(int[] arr) {
